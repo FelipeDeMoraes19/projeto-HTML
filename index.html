@@ -192,7 +192,7 @@
         </section>
         <section id="contato">
             <h2>Contato</h2>
-            <form id="form-contato">
+            <form id="form-contato" onsubmit="return validarFormulario()">
                 <label for="nome">Nome:</label>
                 <input type="text" id="nome" name="nome" required>
         
@@ -208,5 +208,12 @@
 <footer>
     <p>© 2024, Felipe de Moraes Araújo Gomes.</p>
 </footer>
+
+<script>
+    window.onload = function() {
+        alert("Bem-vindo ao Portfólio de Felipe de Moraes Araújo Gomes!");
+    };
+    
+</script>
 </body>
 </html>
